@@ -1,0 +1,84 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.media {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.0975);
+}
+
+.post-details {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.0975);
+}
+
+.user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-left: 10px;
+}
+
+.uploader-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1f1f1f;
+}
+
+.time-posted {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #707070;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.comment-button {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 15px;
+  outline: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 425px) {
+  .media {
+    width: 100vw;
+    height: 100vw;
+  }
+
+  .post-details {
+    width: 100vw;
+    height: 50px;
+  }
+}

@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 600px;
+  background-color: #ffffff;
+}
+
+.header {
+  border: 1px solid #dbdbdb;
+  border-bottom: none;
+  padding: 20px 0;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #262626;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+}
+
+.caption {
+  border: none;
+  outline: none;
+  background: none;
+  flex: 1;
+  padding: 20px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #262626;
+}
+
+.file {
+  padding: 20px;
+}
+
+.share {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  color: #0095f6;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 20px 0;
+  border: 1px solid #dbdbdb;
+  border-top: none;
+  cursor: pointer;
+}

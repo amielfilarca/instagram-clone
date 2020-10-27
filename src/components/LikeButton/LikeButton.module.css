@@ -1,0 +1,13 @@
+.like-button {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
